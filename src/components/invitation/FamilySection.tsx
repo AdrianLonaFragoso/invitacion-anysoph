@@ -19,10 +19,10 @@ const FamilySection = () => {
             </p>
             <div className="space-y-1">
               <p className="font-serif text-xl text-foreground">
-                Jimena Vega Cano
+                Jimena Patricia Vega Cano
               </p>
               <p className="font-serif text-xl text-foreground">
-                Adrian Lona Fragoso
+                Julio Adrian Lona Fragoso
               </p>
             </div>
           </div>

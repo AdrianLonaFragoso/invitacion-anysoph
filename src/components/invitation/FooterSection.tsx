@@ -20,7 +20,7 @@ const FooterSection = () => {
         </p>
         <p className="font-serif text-lg text-muted-foreground">Con cariño,</p>
         <p className="font-serif text-xl text-foreground mt-1">
-          Jimena & Adrian
+          Jimena, Adrian & Any Soph
         </p>
       </motion.div>
 
