@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { ChevronDown } from "lucide-react";
 import floralTop from "@/assets/floral-decoration-2.png";
 import floralWreath from "@/assets/floral-wreath.png";
 import babyPhoto from "@/assets/baby-photo.jpg";
@@ -109,16 +110,14 @@ const HeroSection = () => {
 
       {/* Scroll indicator */}
       <motion.div
-        className="absolute bottom-2 mx-auto  -translate-x-1/2"
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 1.5, repeat: Infinity }}
+        className="fixed left-4 bottom-4 z-50 pointer-events-none sm:hidden"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, y: [0, 6, 0] }}
+        transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut" }}
       >
-        <div className="w-6 h-10 rounded-full border-2 border-gold/40 flex items-start justify-center p-2">
-          <motion.div
-            className="w-1.5 h-1.5 rounded-full bg-gold"
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-          />
+        <div className="flex flex-col items-center">
+          <ChevronDown className="h-6 w-6 text-gold/70" />
+          <ChevronDown className="-mt-3 h-6 w-6 text-gold/40" />
         </div>
       </motion.div>
     </section>
