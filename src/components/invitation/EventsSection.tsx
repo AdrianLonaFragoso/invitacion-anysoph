@@ -31,7 +31,7 @@ const EventsSection = () => {
         title="Recepción"
         placeLogo={restauranteLogo}
         venue="🍽️ Restaurante La Casa Verde"
-        time="1:30 pm"
+        time="1:00 pm"
         address="Brasil 35, Lomas de Querétaro, 76190 Santiago de Querétaro, Qro."
         mapLink="https://share.google/yv0Fw8WDC2rVb1qgI"
         delay={0.2}
