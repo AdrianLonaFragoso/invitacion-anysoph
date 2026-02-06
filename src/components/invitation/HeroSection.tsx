@@ -92,7 +92,7 @@ const HeroSection = () => {
 
         <div className="text-center">
           <p className="font-sans text-sm tracking-widest text-muted-foreground uppercase">
-            A las 11:00
+            11:00hrs
           </p>
         </div>
       </motion.div>

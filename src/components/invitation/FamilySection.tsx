@@ -54,7 +54,7 @@ const FamilySection = () => {
             </p>
             <div className="space-y-1">
               <p className="font-serif text-xl text-foreground">
-                Marisa Pérez Dávila
+                Marisela Pérez Dávila
               </p>
               <p className="font-serif text-xl text-foreground">
                 Felipe Cano Flores
