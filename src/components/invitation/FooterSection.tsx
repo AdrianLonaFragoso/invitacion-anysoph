@@ -9,7 +9,7 @@ const FooterSection = () => {
 
       {/* Footer Text */}
       <motion.div
-        className="text-center px-4"
+        className="text-center px-4 mb-40"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}

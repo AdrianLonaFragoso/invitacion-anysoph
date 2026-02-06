@@ -18,21 +18,21 @@ const HeroSection = () => {
 
       {/* Baby Photo with Wreath */}
       <motion.div
-        className="relative mt-20 mb-8"
+        className="relative mt-28 mb-20"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.3 }}
       >
-        <div className="relative w-56 h-56 sm:w-64 sm:h-64">
+        <div className="relative w-64 h-64 sm:w-96 sm:h-96">
           {/* Gold ring behind wreath */}
           <div className="absolute inset-2 rounded-full border-4 border-gold/40" />
 
           {/* Baby photo */}
-          <div className="absolute inset-6 rounded-full overflow-hidden shadow-lg">
+          <div className="absolute inset-1 rounded-full overflow-hidden shadow-lg">
             <img
               src={babyPhoto}
               alt="Anya Sophia"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover absolute top-4 left-2"
             />
           </div>
 
@@ -40,7 +40,7 @@ const HeroSection = () => {
           <img
             src={floralWreath}
             alt="Corona floral"
-            className="absolute inset-0 w-full h-full object-contain pointer-events-none"
+            className="absolute inset-0 w-full h-full object-contain pointer-events-none scale-150 sm:scale-125"
           />
         </div>
       </motion.div>
