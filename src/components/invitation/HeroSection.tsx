@@ -116,8 +116,8 @@ const HeroSection = () => {
         transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut" }}
       >
         <div className="flex flex-col items-center">
-          <ChevronDown className="h-6 w-6 text-gold/70" />
-          <ChevronDown className="-mt-3 h-6 w-6 text-gold/40" />
+          <ChevronDown className="h-10 w-10 text-gold/70" />
+          <ChevronDown className="-mt-5 h-10 w-10 text-gold/40" />
         </div>
       </motion.div>
     </section>
